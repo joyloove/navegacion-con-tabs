@@ -1,0 +1,52 @@
+body {
+  font-family: 'Pacifico', cursive;
+  color: #d64ecf;
+}
+
+h1 {
+  color: #ff35c5;
+}
+
+.contenedor {
+  position: relative;
+	width: 500px;
+	height: 300px;
+  }
+
+.cabecera {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	border: 2px solid;
+	position: relative;
+	color: #d64ecf;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	transform: translateY(2px);
+	z-index: 2;
+	}
+
+.pestana {
+	position: absolute;
+	border: 2px solid;
+	height: 100%;
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 1s, opacity 1s;
+	}
+
+.p-activa {
+	visibility: visible;
+	opacity: 1;
+	}
+
+.c-activa {
+	border-bottom-color: white;
+	}
+
+p {
+	text-align: justify;
+	padding: 10px;
+  font-family: 'Josefin Slab', serif;
+  font-size: 23px;
+  }
